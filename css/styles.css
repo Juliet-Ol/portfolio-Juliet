@@ -4,6 +4,7 @@ body {
   overflow-x: hidden;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
+  color: black;
 }
 
 /* Toggle Styles */
@@ -19,7 +20,10 @@ body {
 #content {
   width: 100%;
   position: relative;
-  margin-right: 0;
+  padding-left: 5rem;
+  
+  /* margin-right: 0; */
+  /* margin-left: 30rem; */
 }
 
 /* Sidebar Styles */
@@ -43,7 +47,8 @@ body {
   background-color: #263238;
   font-size: 20px;
   line-height: 52px;
-  text-align: center;
+  text-align: left;
+  
 }
 
 #sidebar header a {
@@ -56,48 +61,29 @@ body {
   color: #fff;
 }
 
-#sidebar .nav{
+/* #sidebar .nav{
   
-}
+} */
 
-#sidebar .nav a{
+#sidebar .navbar a{
   background: none;
   border-bottom: 1px solid #455A64;
   color: #CFD8DC;
   font-size: 14px;
+  
   padding: 16px 24px;
 }
 
-#sidebar .nav a:hover{
+#sidebar .navbar a:hover{
   background: none;
   color: #ECEFF1;
 }
 
-#sidebar .nav a i{
+#sidebar .navbar a i{
   margin-right: 16px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .navbar ul li a{
+#navbar ul li a{
     display: block;
     padding:1rem;
     margin:1.5rem 0;
@@ -105,12 +91,88 @@ body {
     color:#fff;
     font-size: 2rem;
     border-radius: 5rem;
+    
+}
+
+#navbar ul{
+  list-style: none;
+}
+
+.social-links a {
+  list-style: none;
 }
 
 header .navbar ul li a:hover{
     background:var(--yellow);
+   
+}
+
+.nav-menu {
+  list-style: none;
 }
 
 img{
+    /* background-image: url(Image/Agutu.jpg); */
     size-adjust: 50%;
-} */
+}
+
+.nav-menu  {
+  list-style: none;
+}
+
+
+#portfolio{
+  margin-top: 3rem;
+}
+
+#interest{
+  margin-top: 3rem;
+}
+
+.user{
+  height: 100vh;
+  width: 100%;
+  /* background-image: url(/Image/juliet.jpg); */
+  
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  border-radius: 50%;
+  font-size: 20px;
+  padding: 5px;
+  
+ }
+   
+ 
+ 
+   
+ .fa-facebook {
+  background: #3B5998;
+  color: white;
+  border-radius: 50%;
+  font-size: 20px;
+  padding: 3px;
+   }
+   
+ .fa-instagram {
+  border-radius: 50%;
+  font-size: 20px;
+  padding: 3px;
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+   box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+   }       
+   
+   
+ .fa-pinterest {
+  background: #cb2027;
+  color: white;
+  border-radius: 50%;
+  font-size: 20px;
+  padding: 3px;
+   }
+
+   
+
